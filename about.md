@@ -48,10 +48,10 @@ permalink: /about/
 - Academic achievements
 - Extracurricular activities
 
-## Resume
+## CV
 
 <div class="resume-container">
-  <iframe class="resume-embed" src="{{ '/docs/Columbia AI Summit 2025 - Eye-Track-ML.pdf (1).pdf' | relative_url }}"></iframe>
+  <iframe class="resume-embed" src="{{ '/docs/Yuexin_CV.pdf' | relative_url }}"></iframe>
 </div>
 
 ## Contact
