@@ -22,8 +22,8 @@ This is a professional portfolio website built with Jekyll and hosted on GitHub 
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/portfolio.git
-   cd portfolio
+   git clone https://github.com/yuexin-li-7/yuexin-li-7.github.io.git
+   cd yuexin-li-7.github.io
    ```
 
 2. Install Jekyll and dependencies:
@@ -74,4 +74,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 - Jekyll for the static site generation
-- GitHub Pages for hosting 
+- GitHub Pages for hosting
