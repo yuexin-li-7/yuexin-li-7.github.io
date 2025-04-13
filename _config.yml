@@ -1,0 +1,32 @@
+title: My Professional Portfolio
+description: A portfolio website showcasing my projects and experience
+baseurl: ""
+url: ""
+github_username: yourusername
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .sass-cache/
+  - .jekyll-cache/
+  - node_modules/
+
+# Sass settings
+sass:
+  sass_dir: _sass
+  style: compressed 
