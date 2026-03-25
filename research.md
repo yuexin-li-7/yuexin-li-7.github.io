@@ -19,12 +19,17 @@ permalink: /research/
       <p class="research-summary">
         A research project investigating whether pre-linguistic infants form event representations in simple social interactions, with analysis supported by an automated eye-tracking annotation pipeline.
       </p>
-      <p class="research-note">
-        This is a skeleton preview card. Click the title to open the project page.
-      </p>
     </div>
-    <div class="research-thumb research-thumb-placeholder">
-      <span>Add experiment thumbnail<br>(e.g. design diagram or frame sample)</span>
-    </div>
+    <a
+      class="research-thumb research-thumb-link"
+      href="{{ '/research/eye-tracking-study-on-infant-event-representation/' | relative_url }}"
+      aria-label="Open Eye-Tracking Study on Infant Event Representation"
+    >
+      <img
+        class="research-thumb-image"
+        src="{{ '/media/research/eye-tracking-preview.png' | relative_url }}"
+        alt="Eye-tracking experiment preview"
+      >
+    </a>
   </article>
 </section>
