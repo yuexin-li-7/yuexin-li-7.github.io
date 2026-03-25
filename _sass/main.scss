@@ -292,7 +292,7 @@ a {
   
   .profile-content {
     flex: 1;
-    min-height: 220px;
+    min-height: 280px;
     border: 1px solid $beige-medium;
     border-radius: 5px;
     background-color: white;
@@ -305,8 +305,8 @@ a {
   padding-left: 1.2rem;
 
   li {
-    margin-bottom: 0.7rem;
-    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    line-height: 1.65;
 
     &:last-child {
       margin-bottom: 0;
