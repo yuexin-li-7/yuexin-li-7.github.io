@@ -4,10 +4,6 @@ title: Research
 permalink: /research/
 ---
 
-<p class="research-intro">
-  This page is the project hub for my research work. Each project title links to a dedicated page with full details, materials, and updates.
-</p>
-
 <section class="research-list">
   <article class="research-card">
     <div class="research-card-main">
