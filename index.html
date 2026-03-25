@@ -8,6 +8,7 @@ title: Home
     <h1 class="page-title">Recent Posts</h1>
   </header>
 
+  {% if site.posts.size > 0 %}
   <ul class="post-list">
     {% for post in site.posts %}
     <li>
@@ -19,41 +20,31 @@ title: Home
           {%- assign date_format = site.date_format | default: "%B %-d, %Y" -%}
           {{ post.date | date: date_format }}
         </time>
-        {%- if post.categories.size > 0 -%}
-          <span class="post-categories">
-            • 
-            {% for category in post.categories %}
-              <a href="{{ '/categories/' | append: category | relative_url }}">{{ category }}</a>
-              {%- unless forloop.last %}, {% endunless -%}
-            {% endfor %}
-          </span>
-        {%- endif -%}
-      </div>
-      <div class="post-excerpt">
-        {{ post.excerpt }}
       </div>
       <a href="{{ post.url | relative_url }}" class="read-more">Read more</a>
     </li>
     {% endfor %}
   </ul>
+  {% else %}
+  <p class="empty-state">No posts published yet.</p>
+  {% endif %}
 
-  {% if site.projects.size > 0 %}
   <header class="page-header">
     <h1 class="page-title">Projects</h1>
   </header>
 
+  {% if site.projects.size > 0 %}
   <ul class="post-list">
     {% for project in site.projects %}
     <li>
       <h2>
         <a class="post-link" href="{{ project.url | relative_url }}">{{ project.title | escape }}</a>
       </h2>
-      <div class="post-excerpt">
-        {{ project.excerpt }}
-      </div>
       <a href="{{ project.url | relative_url }}" class="read-more">Read more</a>
     </li>
     {% endfor %}
   </ul>
+  {% else %}
+  <p class="empty-state">No projects published yet.</p>
   {% endif %}
-</div> 
+</div>

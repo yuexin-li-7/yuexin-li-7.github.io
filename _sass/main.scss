@@ -248,6 +248,16 @@ a {
   }
 }
 
+.empty-state {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding: 1rem 1.25rem;
+  border: 1px dashed $beige-medium;
+  border-radius: 5px;
+  background-color: white;
+  color: $grey-color-dark;
+}
+
 // About page
 .profile-container {
   display: flex;
@@ -264,6 +274,7 @@ a {
     border-radius: 50%;
     overflow: hidden;
     border: 5px solid $beige-medium;
+    background-color: white;
     
     @media screen and (max-width: $on-palm) {
       margin: 0 auto 1rem;
@@ -278,11 +289,19 @@ a {
   
   .profile-content {
     flex: 1;
+    min-height: 200px;
+    border: 1px dashed $beige-medium;
+    border-radius: 5px;
+    background-color: white;
   }
 }
 
 .resume-container {
   margin-top: 2rem;
+  min-height: 200px;
+  border: 1px dashed $beige-medium;
+  border-radius: 5px;
+  background-color: white;
   
   .resume-embed {
     width: 100%;
