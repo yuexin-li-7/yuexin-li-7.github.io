@@ -1,6 +1,19 @@
 <div class="profile-container">
-  <div class="profile-image">
-    <img src="{{ '/media/profile/DSCF0076.jpg' | relative_url }}" alt="Profile photo">
+  <div class="profile-left">
+    <div class="profile-image">
+      <img src="{{ '/media/profile/DSCF0076.jpg' | relative_url }}" alt="Profile photo">
+    </div>
+    <div class="focus-sections">
+      <h2 class="focus-heading">
+        <a href="{{ '/research/' | relative_url }}">Research</a>
+      </h2>
+      <h2 class="focus-heading">
+        <a href="{{ '/music/' | relative_url }}">Music</a>
+      </h2>
+      <h2 class="focus-heading">
+        <a href="{{ '/film-photography/' | relative_url }}">Film Photography</a>
+      </h2>
+    </div>
   </div>
   <div class="profile-content">
     <ul class="intro-list">
@@ -11,18 +24,6 @@
       <li>Theater nerd, museum nerd, and unapologetic enjoyer of dramatic spaces.</li>
     </ul>
   </div>
-</div>
-
-<div class="focus-sections">
-  <h2 class="focus-heading">
-    <a href="{{ '/research/' | relative_url }}">Research</a>
-  </h2>
-  <h2 class="focus-heading">
-    <a href="{{ '/music/' | relative_url }}">Music</a>
-  </h2>
-  <h2 class="focus-heading">
-    <a href="{{ '/film-photography/' | relative_url }}">Film Photography</a>
-  </h2>
 </div>
 
 <h2>CV</h2>
