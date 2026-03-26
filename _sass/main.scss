@@ -271,8 +271,8 @@ a {
   }
 
   .profile-left {
-    width: 220px;
-    flex: 0 0 220px;
+    width: 260px;
+    flex: 0 0 260px;
 
     @media screen and (max-width: $on-palm) {
       width: 100%;
@@ -324,7 +324,7 @@ a {
 }
 
 .focus-sections {
-  margin-top: 1.5rem;
+  margin-top: 1.1rem;
   margin-bottom: 0;
 
   @media screen and (max-width: $on-palm) {
@@ -333,11 +333,18 @@ a {
 }
 
 .focus-heading {
-  margin: 0 0 1rem;
+  margin: 0 0 0.85rem;
+  font-size: 1.28rem;
+  line-height: 1.28;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   a {
     color: $text-color;
     text-decoration: none;
+    white-space: nowrap;
 
     &:hover {
       color: $brand-color;
