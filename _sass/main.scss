@@ -358,7 +358,7 @@ a {
 
 .research-card {
   display: grid;
-  grid-template-columns: minmax(0, 1.4fr) minmax(220px, 1fr);
+  grid-template-columns: minmax(0, 1.5fr) minmax(180px, 0.85fr);
   gap: 1.25rem;
   padding: 1.25rem;
   border: 1px solid $beige-medium;
@@ -393,12 +393,17 @@ a {
 .research-thumb {
   border: 1px solid $beige-medium;
   border-radius: 8px;
-  height: 240px;
+  width: 100%;
+  max-width: 420px;
+  justify-self: end;
+  height: 200px;
   background-color: #f7f7f7;
   overflow: hidden;
 
   @media screen and (max-width: $on-laptop) {
-    height: 220px;
+    justify-self: start;
+    max-width: 360px;
+    height: 180px;
   }
 }
 
