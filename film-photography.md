@@ -9,7 +9,6 @@ permalink: /film-photography/
   <div class="film-grid">
     <figure class="film-frame"><img src="{{ '/media/film-photography/kodak-gold-200/frame-01.jpeg' | relative_url }}" alt="Kodak Gold 200 frame 01"></figure>
     <figure class="film-frame"><img src="{{ '/media/film-photography/kodak-gold-200/frame-02.jpeg' | relative_url }}" alt="Kodak Gold 200 frame 02"></figure>
-    <figure class="film-frame"><img src="{{ '/media/film-photography/kodak-gold-200/frame-03.jpeg' | relative_url }}" alt="Kodak Gold 200 frame 03"></figure>
     <figure class="film-frame"><img src="{{ '/media/film-photography/kodak-gold-200/frame-04.jpeg' | relative_url }}" alt="Kodak Gold 200 frame 04"></figure>
     <figure class="film-frame"><img src="{{ '/media/film-photography/kodak-gold-200/frame-05.jpeg' | relative_url }}" alt="Kodak Gold 200 frame 05"></figure>
     <figure class="film-frame"><img src="{{ '/media/film-photography/kodak-gold-200/frame-06.jpeg' | relative_url }}" alt="Kodak Gold 200 frame 06"></figure>
@@ -20,6 +19,5 @@ permalink: /film-photography/
     <figure class="film-frame"><img src="{{ '/media/film-photography/kodak-gold-200/frame-11.jpeg' | relative_url }}" alt="Kodak Gold 200 frame 11"></figure>
     <figure class="film-frame"><img src="{{ '/media/film-photography/kodak-gold-200/frame-12.jpeg' | relative_url }}" alt="Kodak Gold 200 frame 12"></figure>
     <figure class="film-frame"><img src="{{ '/media/film-photography/kodak-gold-200/frame-13.jpeg' | relative_url }}" alt="Kodak Gold 200 frame 13"></figure>
-    <figure class="film-frame"><img src="{{ '/media/film-photography/kodak-gold-200/frame-14.jpeg' | relative_url }}" alt="Kodak Gold 200 frame 14"></figure>
   </div>
 </section>

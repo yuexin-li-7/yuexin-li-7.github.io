@@ -19,7 +19,7 @@ $grey-color: #b2a99a;
 $grey-color-light: $beige-light;
 $grey-color-dark: #918679;
 
-$content-width: 800px;
+$content-width: 1080px;
 $on-palm: 600px;
 $on-laptop: 800px;
 
@@ -55,7 +55,7 @@ a {
 .container {
   max-width: $content-width;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 0.75rem;
 }
 
 // Header
@@ -190,7 +190,7 @@ a {
 .page, .post {
   margin-bottom: 2rem;
   background-color: white;
-  padding: 2rem;
+  padding: 1.6rem;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
