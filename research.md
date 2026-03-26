@@ -28,4 +28,64 @@ permalink: /research/
       >
     </a>
   </article>
+
+  <article class="research-card">
+    <div class="research-card-main">
+      <h2 class="research-title">
+        <a href="{{ '/research/eeg-numbers-study/' | relative_url }}">
+          Electroencephalogram (EEG) Numbers Study
+        </a>
+      </h2>
+      <p class="research-summary">
+        A 128-channel EEG project examining differentiation between small (1-3) vs. large (4-6) numerosity and increase/decrease directionality, with preprocessing, ERP analysis, and machine-learning classification.
+      </p>
+    </div>
+    <a
+      class="research-thumb research-thumb-link research-thumb-placeholder"
+      href="{{ '/research/eeg-numbers-study/' | relative_url }}"
+      aria-label="Open Electroencephalogram (EEG) Numbers Study"
+    >
+      <span>Add EEG project thumbnail</span>
+    </a>
+  </article>
+
+  <article class="research-card">
+    <div class="research-card-main">
+      <h2 class="research-title">
+        <a href="{{ '/research/development-of-numerical-cognition-in-young-children/' | relative_url }}">
+          Development of Numerical Cognition in Young Children
+        </a>
+      </h2>
+      <p class="research-summary">
+        A cross-linguistic project on early number-word meaning acquisition in young children, combining experiment coding with statistical analysis and visualizations across multilingual datasets.
+      </p>
+    </div>
+    <a
+      class="research-thumb research-thumb-link research-thumb-placeholder"
+      href="{{ '/research/development-of-numerical-cognition-in-young-children/' | relative_url }}"
+      aria-label="Open Development of Numerical Cognition in Young Children"
+    >
+      <span>Add numerical cognition thumbnail</span>
+    </a>
+  </article>
+
+  <article class="research-card">
+    <div class="research-card-main">
+      <h2 class="research-title">
+        <a href="{{ '/research/mental-state-verb-learning-and-theory-of-mind/' | relative_url }}">
+          Mental State Verb Learning and Theory of Mind in Mandarin-Speaking Children
+        </a>
+      </h2>
+      <p class="research-summary">
+        A project testing whether Mandarin-speaking children can learn mental state verbs via syntactic structure, with experiment coding, data compilation, statistical testing, and visualization.
+      </p>
+    </div>
+    <a
+      class="research-thumb research-thumb-link research-thumb-placeholder"
+      href="{{ '/research/mental-state-verb-learning-and-theory-of-mind/' | relative_url }}"
+      aria-label="Open Mental State Verb Learning and Theory of Mind project"
+    >
+      <span>Add theory-of-mind project thumbnail</span>
+    </a>
+  </article>
 </section>
