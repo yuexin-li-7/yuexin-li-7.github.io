@@ -53,3 +53,17 @@ permalink: /film-photography/
     <figure class="film-frame"><img src="{{ '/media/film-photography/kodak-colorplus-200/frame-04.jpg' | relative_url }}" alt="Kodak ColorPlus 200 frame 04"></figure>
   </div>
 </section>
+
+<section class="film-roll">
+  <h2 class="film-roll-title">Fuji film 400 Quick Snap</h2>
+  <div class="film-grid">
+    <figure class="film-frame"><img src="{{ '/media/film-photography/fujifilm-400-QuickSnap/frame-01.JPG' | relative_url }}" alt="Fuji film 400 Quick Snap frame 01"></figure>
+    <figure class="film-frame"><img src="{{ '/media/film-photography/fujifilm-400-QuickSnap/frame-02.JPG' | relative_url }}" alt="Fuji film 400 Quick Snap frame 02"></figure>
+    <figure class="film-frame"><img src="{{ '/media/film-photography/fujifilm-400-QuickSnap/frame-03.JPG' | relative_url }}" alt="Fuji film 400 Quick Snap frame 03"></figure>
+    <figure class="film-frame"><img src="{{ '/media/film-photography/fujifilm-400-QuickSnap/frame-04.JPG' | relative_url }}" alt="Fuji film 400 Quick Snap frame 04"></figure>
+    <figure class="film-frame"><img src="{{ '/media/film-photography/fujifilm-400-QuickSnap/frame-05.JPG' | relative_url }}" alt="Fuji film 400 Quick Snap frame 05"></figure>
+    <figure class="film-frame"><img src="{{ '/media/film-photography/fujifilm-400-QuickSnap/frame-06.JPG' | relative_url }}" alt="Fuji film 400 Quick Snap frame 06"></figure>
+    <figure class="film-frame"><img src="{{ '/media/film-photography/fujifilm-400-QuickSnap/frame-07.JPG' | relative_url }}" alt="Fuji film 400 Quick Snap frame 07"></figure>
+    <figure class="film-frame"><img src="{{ '/media/film-photography/fujifilm-400-QuickSnap/frame-08.JPG' | relative_url }}" alt="Fuji film 400 Quick Snap frame 08"></figure>
+  </div>
+</section>
