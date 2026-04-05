@@ -596,6 +596,10 @@ a {
   }
 }
 
+.music-grid-horizontal {
+  margin-bottom: 0.8rem;
+}
+
 .music-frame {
   margin: 0;
   border: 1px solid $beige-medium;
@@ -610,6 +614,10 @@ a {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.music-frame-landscape {
+  aspect-ratio: 16 / 9;
 }
 
 .music-frame-placeholder {
