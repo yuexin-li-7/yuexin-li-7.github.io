@@ -28,8 +28,8 @@ permalink: /music/
 <section class="music-highlights" aria-label="Performance highlights">
   <h2 class="music-section-title">Performance Highlights</h2>
   <div class="music-grid">
-    <figure class="music-frame music-frame-landscape"><img src="{{ '/media/music/highlights/highlight-01.JPG?v=20260405' | relative_url }}" alt="Performance highlight 1"></figure>
-    <figure class="music-frame music-frame-landscape"><img src="{{ '/media/music/highlights/highlight-02.jpg?v=20260405' | relative_url }}" alt="Performance highlight 2"></figure>
-    <figure class="music-frame music-frame-landscape"><img src="{{ '/media/music/highlights/highlight-03.JPG?v=20260405' | relative_url }}" alt="Performance highlight 3"></figure>
+    <figure class="music-frame music-frame-landscape"><img src="{{ '/media/music/highlights/highlight-01.JPG' | relative_url }}?v=20260405" alt="Performance highlight 1"></figure>
+    <figure class="music-frame music-frame-landscape"><img src="{{ '/media/music/highlights/highlight-02.jpg' | relative_url }}?v=20260405" alt="Performance highlight 2"></figure>
+    <figure class="music-frame music-frame-landscape"><img src="{{ '/media/music/highlights/highlight-03.JPG' | relative_url }}?v=20260405" alt="Performance highlight 3"></figure>
   </div>
 </section>
