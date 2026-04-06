@@ -518,8 +518,14 @@ a {
 
 .music-intro {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.25rem;
   font-size: 1.05rem;
+}
+
+.music-concert-note {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: $grey-color-dark;
 }
 
 .music-section-title {

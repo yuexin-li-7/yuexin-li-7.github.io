@@ -4,7 +4,8 @@ title: Music
 permalink: /music/
 ---
 
-<p class="music-intro">Active member of Columbia Chinese Orchestra, Guzheng player (occasionally plays piano or percussion).</p>
+<p class="music-intro">Active member of Columbia Chinese Orchestra, Guzheng player.</p>
+<p class="music-concert-note">Spring 2026 Concert: April 18th!</p>
 
 <section class="music-links" aria-label="Social links">
   <h2 class="music-section-title">Follow CCO</h2>
@@ -26,14 +27,9 @@ permalink: /music/
 
 <section class="music-highlights" aria-label="Performance highlights">
   <h2 class="music-section-title">Performance Highlights</h2>
-  <div class="music-grid music-grid-horizontal">
-    <figure class="music-frame"><img src="{{ '/media/music/highlights/highlight-01.JPG' | relative_url }}" alt="Performance highlight 1"></figure>
-    <figure class="music-frame"><img src="{{ '/media/music/highlights/highlight-02.jpg' | relative_url }}" alt="Performance highlight 2"></figure>
-    <figure class="music-frame"><img src="{{ '/media/music/highlights/highlight-03.JPG' | relative_url }}" alt="Performance highlight 3"></figure>
-  </div>
-  <div class="music-grid music-grid-landscape">
-    <figure class="music-frame music-frame-landscape"><img src="{{ '/media/music/highlights/highlight-04.jpg' | relative_url }}" alt="Performance highlight 4"></figure>
-    <figure class="music-frame music-frame-landscape"><img src="{{ '/media/music/highlights/highlight-05.jpg' | relative_url }}" alt="Performance highlight 5"></figure>
-    <figure class="music-frame music-frame-landscape"><img src="{{ '/media/music/highlights/highlight-06.JPEG' | relative_url }}" alt="Performance highlight 6"></figure>
+  <div class="music-grid">
+    <figure class="music-frame music-frame-landscape"><img src="{{ '/media/music/highlights/highlight-01.JPG' | relative_url }}" alt="Performance highlight 1"></figure>
+    <figure class="music-frame music-frame-landscape"><img src="{{ '/media/music/highlights/highlight-02.jpg' | relative_url }}" alt="Performance highlight 2"></figure>
+    <figure class="music-frame music-frame-landscape"><img src="{{ '/media/music/highlights/highlight-03.JPG' | relative_url }}" alt="Performance highlight 3"></figure>
   </div>
 </section>
