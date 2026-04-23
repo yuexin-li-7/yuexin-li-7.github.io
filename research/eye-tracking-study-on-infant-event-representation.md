@@ -74,7 +74,11 @@ How Infant Looking Patterns to Trivalent Events Change from Object to Person Int
 
 ## Take-Away
 
-Infants develop adult-like event parsing for `GIVE` by around 10-11 months but not for `SHOW`, suggesting that physical transfer is parsed before events requiring understanding of intention. This converges with Gordon (2003), where infants dishabituated to toy removal in GIVE but not SHOW. The shift from `Toy↔Body` to `Face↔Face` transitions may reflect emerging understanding of intentionality and developing theory of mind, and may scaffold verb-argument structure acquisition.
+- Infants develop adult-like event parsing for `GIVE` by around 10-11 months, but not for `SHOW`.
+- This suggests physical transfer is parsed before events requiring deeper understanding of intention.
+- The pattern converges with Gordon (2003): infants dishabituated to toy removal in GIVE but not SHOW.
+- A developmental shift from `Toy↔Body` to `Face↔Face` transitions may reflect emerging intentionality and theory of mind.
+- These changes may scaffold later verb-argument structure acquisition.
 
 ## Poster
 
