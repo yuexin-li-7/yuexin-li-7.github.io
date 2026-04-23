@@ -23,8 +23,8 @@ permalink: /research/
     >
       <img
         class="research-thumb-image"
-        src="{{ '/media/research/good-enough-vision-at-birth-preview.png' | relative_url }}"
-        alt="Poster preview for Good-Enough Vision at Birth project"
+        src="{{ '/media/research/example_stimulus_panel.png' | relative_url }}"
+        alt="Example stimulus panel for Good-Enough Vision at Birth project"
       >
     </a>
   </article>
