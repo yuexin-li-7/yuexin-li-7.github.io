@@ -19,7 +19,7 @@ How Infant Looking Patterns to Trivalent Events Change from Object to Person Int
 - This project tests whether infants parse these events differently across development.
 
 <figure class="project-figure project-figure-single">
-  <img src="{{ '/media/research/eye-tracking-study-on-infant-event-representation/figure-prior-work.png' | relative_url }}" alt="Prior work framing on event structure and argument representation">
+  <img src="{{ '/media/research/eye-tracking-study-on-infant-event-representation/figure-prior-work.png' | relative_url }}?v=20260423b" alt="Prior work framing on event structure and argument representation">
   <figcaption>Conceptual and developmental framing for verb-argument structure and trivalent event parsing.</figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ How Infant Looking Patterns to Trivalent Events Change from Object to Person Int
 ## Method
 
 <figure class="project-figure project-figure-single project-figure-experiment">
-  <img src="{{ '/media/research/eye-tracking-study-on-infant-event-representation/figure-experiment-stimuli.png' | relative_url }}" alt="Experiment stimuli examples for GIVE and SHOW conditions">
+  <img src="{{ '/media/research/eye-tracking-study-on-infant-event-representation/figure-experiment-stimuli.png' | relative_url }}?v=20260423b" alt="Experiment stimuli examples for GIVE and SHOW conditions">
   <figcaption>Experiment stimuli examples used across GIVE and SHOW conditions.</figcaption>
 </figure>
 
@@ -58,11 +58,11 @@ How Infant Looking Patterns to Trivalent Events Change from Object to Person Int
 
 <div class="project-figure-grid">
   <figure class="project-figure">
-    <img src="{{ '/media/research/eye-tracking-study-on-infant-event-representation/figure-give-condition.png' | relative_url }}" alt="GIVE condition age-trend plots">
+    <img src="{{ '/media/research/eye-tracking-study-on-infant-event-representation/figure-give-condition.png' | relative_url }}?v=20260423b" alt="GIVE condition age-trend plots">
     <figcaption>GIVE condition: age-related increases in face-oriented transitions and decreases in toy-body transitions.</figcaption>
   </figure>
   <figure class="project-figure">
-    <img src="{{ '/media/research/eye-tracking-study-on-infant-event-representation/figure-show-condition.png' | relative_url }}" alt="SHOW condition age-trend plots">
+    <img src="{{ '/media/research/eye-tracking-study-on-infant-event-representation/figure-show-condition.png' | relative_url }}?v=20260423b" alt="SHOW condition age-trend plots">
     <figcaption>SHOW condition: similar directional changes, but with slower convergence to adult-like transition patterns.</figcaption>
   </figure>
 </div>
