@@ -18,7 +18,7 @@ How Infant Looking Patterns to Trivalent Events Change from Object to Person Int
 - Trivalent events such as `GIVE` and `SHOW` both involve three arguments, but differ in intentional complexity.
 - This project tests whether infants parse these events differently across development.
 
-<figure class="project-figure project-figure-single">
+<figure class="project-figure project-figure-single project-figure-prior">
   <img src="{{ '/media/research/eye-tracking-study-on-infant-event-representation/figure-prior-work.png' | relative_url }}?v=20260423b" alt="Prior work framing on event structure and argument representation">
   <figcaption>Conceptual and developmental framing for verb-argument structure and trivalent event parsing.</figcaption>
 </figure>
@@ -32,7 +32,7 @@ How Infant Looking Patterns to Trivalent Events Change from Object to Person Int
 
 <figure class="project-figure project-figure-single project-figure-experiment">
   <img src="{{ '/media/research/eye-tracking-study-on-infant-event-representation/figure-experiment-stimuli.png' | relative_url }}?v=20260423b" alt="Experiment stimuli examples for GIVE and SHOW conditions">
-  <figcaption>Experiment stimuli examples used across GIVE and SHOW conditions.</figcaption>
+  <figcaption>Experiment stimuli examples used across HUG, GIVE and SHOW conditions.</figcaption>
 </figure>
 
 - Participants: 40 infants (7-11 months) and 15 adults in a within-subjects design.
