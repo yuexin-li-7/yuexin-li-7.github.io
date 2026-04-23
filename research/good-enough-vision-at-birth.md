@@ -40,10 +40,15 @@ This project uses computational models to test whether reduced visual input can 
 - `Cross-orientation` generalization tests
 - Model comparison focused on how well decodable signal survives degradation.
 
+<figure class="project-figure">
+  <img src="{{ '/media/research/good-enough-vision-at-birth/preprocessing_pipeline_panel.png' | relative_url }}" alt="Preprocessing pipeline for newborn-like visual input simulation">
+  <figcaption>Preprocessing pipeline used to simulate newborn-like visual input conditions before downstream modeling tasks.</figcaption>
+</figure>
+
 ## Example Stimuli
 
 <figure class="project-figure">
-  <img src="{{ '/media/research/example_stimulus_panel.png' | relative_url }}" alt="Example stimuli panel for Good-Enough Vision at Birth">
+  <img src="{{ '/media/research/good-enough-vision-at-birth/example_stimulus_panel.png' | relative_url }}" alt="Example stimuli panel for Good-Enough Vision at Birth">
   <figcaption>Example schematic and photographic stimuli under newborn-like degradation settings.</figcaption>
 </figure>
 
@@ -53,6 +58,36 @@ This project uses computational models to test whether reduced visual input can 
 - Real faces vs. phase-scrambled controls also remained near ceiling, including under center-cropping tests.
 - Attractiveness classification stayed above chance under degraded input; best linear model reached about `0.74` accuracy.
 - Cross-orientation generalization dropped from around `0.73–0.74` (within orientation) to around `0.46–0.48` (cross orientation), suggesting orientation-sensitive surviving signal.
+
+## Result Figures
+
+### Main Task Performance
+
+<figure class="project-figure">
+  <img src="{{ '/media/research/good-enough-vision-at-birth/main_performance_comparison.png' | relative_url }}" alt="Main task performance comparisons">
+  <figcaption>Performance comparisons across core discrimination tasks under newborn-like degraded input.</figcaption>
+</figure>
+
+### Cross-Orientation Generalization
+
+<figure class="project-figure">
+  <img src="{{ '/media/research/good-enough-vision-at-birth/cross_orientation_comparison.png' | relative_url }}" alt="Cross-orientation generalization comparison">
+  <figcaption>Within-orientation versus cross-orientation performance showing reduced transfer across orientation changes.</figcaption>
+</figure>
+
+### Crop Robustness
+
+<figure class="project-figure">
+  <img src="{{ '/media/research/good-enough-vision-at-birth/crop_robustness_figure.png' | relative_url }}" alt="Crop robustness analysis figure">
+  <figcaption>Robustness checks under center-cropping manipulations for face-related discriminations.</figcaption>
+</figure>
+
+### Attractiveness Interpretability
+
+<figure class="project-figure">
+  <img src="{{ '/media/research/good-enough-vision-at-birth/attractiveness_interpretability_figure.png' | relative_url }}" alt="Attractiveness interpretability figure">
+  <figcaption>Interpretability-oriented analyses for attractiveness-related predictions under degraded visual input.</figcaption>
+</figure>
 
 ## Discussion
 
@@ -65,21 +100,6 @@ This project uses computational models to test whether reduced visual input can 
 - Retinal/input degradation is simplified relative to neonatal vision.
 - No explicit modeling of eye movements, attention, or learning dynamics.
 - Models act as ideal-observer demonstrations rather than process-level developmental accounts.
-
-## Graphs and Assets (Where to Put Files)
-
-Please place project graphics in:
-
-- `/media/research/good-enough-vision-at-birth/`
-
-Recommended filenames:
-
-- `main-task-performance.png`
-- `cross-orientation-generalization.png`
-- `crop-robustness.png`
-- `attractiveness-interpretability.png`
-
-When you add them, I can drop them into the page immediately.
 
 ## Poster (Full)
 
