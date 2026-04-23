@@ -88,6 +88,8 @@ Good-Enough Vision at Birth asks what face-relevant visual information remains u
 
 ## Poster
 
+Poster presented at 2026 Cognitive Development Society Meeting & 2026 NYU MA Psychology Research Conference.
+
 - [View or download poster PDF]({{ '/docs/research/good-enough-vision-at-birth-poster.pdf' | relative_url }})
 
 <div class="resume-container">
