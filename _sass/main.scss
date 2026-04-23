@@ -481,6 +481,10 @@ a {
   border-radius: 8px;
   background-color: white;
   padding: 0.75rem;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  align-items: stretch;
+  height: 100%;
 }
 
 .project-figure img {
@@ -488,6 +492,7 @@ a {
   height: auto;
   display: block;
   border-radius: 4px;
+  align-self: center;
 }
 
 .project-figure figcaption {
