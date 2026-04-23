@@ -497,6 +497,21 @@ a {
   color: $grey-color-dark;
 }
 
+.project-figure-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin: 1rem 0 1.25rem;
+
+  @media screen and (max-width: $on-laptop) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project-figure-grid .project-figure {
+  margin: 0;
+}
+
 .film-roll {
   margin-bottom: 2.5rem;
 }

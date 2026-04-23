@@ -8,14 +8,9 @@ permalink: /research/good-enough-vision-at-birth/
 
 ## Project Overview
 
-**Good-Enough Vision at Birth** asks what kinds of face-relevant visual information remain usable under newborn-like visual degradation (rod-dominated, low-acuity input).
-This project uses computational models to test whether reduced visual input can still support meaningful discrimination performance.
-
-## Team and Context
+Good-Enough Vision at Birth asks what face-relevant visual information remains under newborn-like visual degradation (rod-dominated, low-acuity input). This project uses computational models to test whether reduced visual input can still support meaningful face discrimination performance.
 
 - Author: Yuexin Li
-- Department: Psychology, New York University
-- Project type: Computational modeling
 
 ## Background
 
@@ -34,23 +29,22 @@ This project uses computational models to test whether reduced visual input can 
 - Stimuli: schematic canonical/scrambled faces and real neutral faces (Chicago Face Database).
 - Newborn-like visual simulation: grayscale normalization, `32 × 32` resize, Gaussian blur, optional Sobel edges.
 - Tasks:
-- `Schematic vs. scrambled` classification
-- `Face vs. phase-scrambled` classification
-- `Attractiveness` prediction/classification
-- `Cross-orientation` generalization tests
-- Model comparison focused on how well decodable signal survives degradation.
+  - Schematic canonical vs. scrambled classification
+  - Neutral Face vs. phase-scrambled classification
+  - Attractiveness prediction/classification
+  - Cross-orientation generalization tests
+  - Model comparison focused on how well decodable signal survives degradation.
 
-<figure class="project-figure">
-  <img src="{{ '/media/research/good-enough-vision-at-birth/preprocessing_pipeline_panel.png' | relative_url }}" alt="Preprocessing pipeline for newborn-like visual input simulation">
-  <figcaption>Preprocessing pipeline used to simulate newborn-like visual input conditions before downstream modeling tasks.</figcaption>
-</figure>
-
-## Example Stimuli
-
-<figure class="project-figure">
-  <img src="{{ '/media/research/good-enough-vision-at-birth/example_stimulus_panel.png' | relative_url }}" alt="Example stimuli panel for Good-Enough Vision at Birth">
-  <figcaption>Example schematic and photographic stimuli under newborn-like degradation settings.</figcaption>
-</figure>
+<div class="project-figure-grid">
+  <figure class="project-figure">
+    <img src="{{ '/media/research/good-enough-vision-at-birth/preprocessing_pipeline_panel.png' | relative_url }}" alt="Preprocessing pipeline for newborn-like visual input simulation">
+    <figcaption>Preprocessing pipeline used to simulate newborn-like visual input conditions before downstream modeling tasks.</figcaption>
+  </figure>
+  <figure class="project-figure">
+    <img src="{{ '/media/research/good-enough-vision-at-birth/example_stimulus_panel.png' | relative_url }}" alt="Example stimuli panel for Good-Enough Vision at Birth">
+    <figcaption>Example schematic and photographic stimuli under newborn-like degradation settings.</figcaption>
+  </figure>
+</div>
 
 ## Results Summary
 
@@ -61,33 +55,24 @@ This project uses computational models to test whether reduced visual input can 
 
 ## Result Figures
 
-### Main Task Performance
-
-<figure class="project-figure">
-  <img src="{{ '/media/research/good-enough-vision-at-birth/main_performance_comparison.png' | relative_url }}" alt="Main task performance comparisons">
-  <figcaption>Performance comparisons across core discrimination tasks under newborn-like degraded input.</figcaption>
-</figure>
-
-### Cross-Orientation Generalization
-
-<figure class="project-figure">
-  <img src="{{ '/media/research/good-enough-vision-at-birth/cross_orientation_comparison.png' | relative_url }}" alt="Cross-orientation generalization comparison">
-  <figcaption>Within-orientation versus cross-orientation performance showing reduced transfer across orientation changes.</figcaption>
-</figure>
-
-### Crop Robustness
-
-<figure class="project-figure">
-  <img src="{{ '/media/research/good-enough-vision-at-birth/crop_robustness_figure.png' | relative_url }}" alt="Crop robustness analysis figure">
-  <figcaption>Robustness checks under center-cropping manipulations for face-related discriminations.</figcaption>
-</figure>
-
-### Attractiveness Interpretability
-
-<figure class="project-figure">
-  <img src="{{ '/media/research/good-enough-vision-at-birth/attractiveness_interpretability_figure.png' | relative_url }}" alt="Attractiveness interpretability figure">
-  <figcaption>Interpretability-oriented analyses for attractiveness-related predictions under degraded visual input.</figcaption>
-</figure>
+<div class="project-figure-grid">
+  <figure class="project-figure">
+    <img src="{{ '/media/research/good-enough-vision-at-birth/main_performance_comparison.png' | relative_url }}" alt="Main task performance comparisons">
+    <figcaption>Main task performance comparisons under newborn-like degraded input.</figcaption>
+  </figure>
+  <figure class="project-figure">
+    <img src="{{ '/media/research/good-enough-vision-at-birth/cross_orientation_comparison.png' | relative_url }}" alt="Cross-orientation generalization comparison">
+    <figcaption>Within-orientation versus cross-orientation generalization performance.</figcaption>
+  </figure>
+  <figure class="project-figure">
+    <img src="{{ '/media/research/good-enough-vision-at-birth/crop_robustness_figure.png' | relative_url }}" alt="Crop robustness analysis figure">
+    <figcaption>Crop-robustness checks for face-related discrimination performance.</figcaption>
+  </figure>
+  <figure class="project-figure">
+    <img src="{{ '/media/research/good-enough-vision-at-birth/attractiveness_interpretability_figure.png' | relative_url }}" alt="Attractiveness interpretability figure">
+    <figcaption>Attractiveness-focused interpretability analyses under degraded input.</figcaption>
+  </figure>
+</div>
 
 ## Discussion
 
@@ -101,7 +86,7 @@ This project uses computational models to test whether reduced visual input can 
 - No explicit modeling of eye movements, attention, or learning dynamics.
 - Models act as ideal-observer demonstrations rather than process-level developmental accounts.
 
-## Poster (Full)
+## Poster
 
 - [View or download poster PDF]({{ '/docs/research/good-enough-vision-at-birth-poster.pdf' | relative_url }})
 
