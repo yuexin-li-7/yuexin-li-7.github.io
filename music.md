@@ -5,7 +5,6 @@ permalink: /music/
 ---
 
 <p class="music-intro">Active member of Columbia Chinese Orchestra, Guzheng player.</p>
-<p class="music-concert-note">Spring 2026 Concert: April 18th!</p>
 
 <section class="music-links" aria-label="Social links">
   <h2 class="music-section-title">Follow CCO</h2>
