@@ -23,7 +23,7 @@ How Infant Looking Patterns to Trivalent Events Change from Object to Person Int
 - Do gaze transition patterns change from 7 to 11 months, specifically away from `Toy↔Body` and toward `Face↔Face` transitions?
 - Do `GIVE` and `SHOW` differ in the developmental trajectory of these gaze patterns?
 
-## Methods and Modeling Pipeline
+## Method
 
 - Participants: 40 infants (7-11 months) and 15 adults in a within-subjects design.
 - Event conditions: `GIVE` and `SHOW` (with multiple trial variants and quality-screened usable samples).
@@ -72,17 +72,9 @@ How Infant Looking Patterns to Trivalent Events Change from Object to Person Int
   </figure>
 </div>
 
-## Discussion
+## Take-Away
 
-- Results support a developmental shift from object/body-centered transitions toward face-centered transitions.
-- This shift is stronger and earlier for `GIVE` than for `SHOW`, consistent with greater conceptual complexity for SHOW-type intentional relations.
-- The findings align with prior work suggesting physical transfer relations may be parsed before deeper intention-driven structures.
-
-## Limitations
-
-- Correlational developmental trends cannot fully isolate mechanism.
-- EOI segmentation quality and trial inclusion thresholds may influence effect size estimates.
-- Additional longitudinal/replication datasets will help test robustness across populations and task variants.
+Infants develop adult-like event parsing for `GIVE` by around 10-11 months but not for `SHOW`, suggesting that physical transfer is parsed before events requiring understanding of intention. This converges with Gordon (2003), where infants dishabituated to toy removal in GIVE but not SHOW. The shift from `Toy↔Body` to `Face↔Face` transitions may reflect emerging understanding of intentionality and developing theory of mind, and may scaffold verb-argument structure acquisition.
 
 ## Poster
 
