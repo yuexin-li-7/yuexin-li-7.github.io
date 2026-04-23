@@ -18,12 +18,22 @@ How Infant Looking Patterns to Trivalent Events Change from Object to Person Int
 - Trivalent events such as `GIVE` and `SHOW` both involve three arguments, but differ in intentional complexity.
 - This project tests whether infants parse these events differently across development.
 
+<figure class="project-figure project-figure-single">
+  <img src="{{ '/media/research/eye-tracking-study-on-infant-event-representation/figure-prior-work.png' | relative_url }}" alt="Prior work framing on event structure and argument representation">
+  <figcaption>Conceptual and developmental framing for verb-argument structure and trivalent event parsing.</figcaption>
+</figure>
+
 ## Research Questions
 
 - Do gaze transition patterns change from 7 to 11 months, specifically away from `Toy↔Body` and toward `Face↔Face` transitions?
 - Do `GIVE` and `SHOW` differ in the developmental trajectory of these gaze patterns?
 
 ## Method
+
+<figure class="project-figure project-figure-single">
+  <img src="{{ '/media/research/eye-tracking-study-on-infant-event-representation/figure-experiment-stimuli.png' | relative_url }}" alt="Experiment stimuli examples for GIVE and SHOW conditions">
+  <figcaption>Experiment stimuli examples used across GIVE and SHOW conditions.</figcaption>
+</figure>
 
 - Participants: 40 infants (7-11 months) and 15 adults in a within-subjects design.
 - Event conditions: `GIVE` and `SHOW` (with multiple trial variants and quality-screened usable samples).
@@ -36,17 +46,6 @@ How Infant Looking Patterns to Trivalent Events Change from Object to Person Int
   - Linear age-trend tests across 7-11 months
   - Fixation threshold: `>=3` consecutive frames
   - Trial inclusion threshold: `>=50%` on-screen looking
-
-<div class="project-figure-grid">
-  <figure class="project-figure">
-    <img src="{{ '/media/research/eye-tracking-study-on-infant-event-representation/figure-prior-work.png' | relative_url }}" alt="Prior work framing on event structure and argument representation">
-    <figcaption>Conceptual and developmental framing for verb-argument structure and trivalent event parsing.</figcaption>
-  </figure>
-  <figure class="project-figure">
-    <img src="{{ '/media/research/eye-tracking-study-on-infant-event-representation/figure-eye-track-ml.png' | relative_url }}" alt="Eye-Track-ML pipeline and EOI coding example">
-    <figcaption>Eye-Track-ML workflow and example segmented EOI output used for transition analysis.</figcaption>
-  </figure>
-</div>
 
 ## Results Summary
 
@@ -65,10 +64,6 @@ How Infant Looking Patterns to Trivalent Events Change from Object to Person Int
   <figure class="project-figure">
     <img src="{{ '/media/research/eye-tracking-study-on-infant-event-representation/figure-show-condition.png' | relative_url }}" alt="SHOW condition age-trend plots">
     <figcaption>SHOW condition: similar directional changes, but with slower convergence to adult-like transition patterns.</figcaption>
-  </figure>
-  <figure class="project-figure">
-    <img src="{{ '/media/research/eye-tracking-study-on-infant-event-representation/figure-give-vs-show-table.png' | relative_url }}" alt="GIVE versus SHOW comparison table">
-    <figcaption>Summary of linear age trends across transition types in GIVE and SHOW conditions.</figcaption>
   </figure>
 </div>
 
