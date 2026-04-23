@@ -9,7 +9,7 @@ permalink: /research/
     <div class="research-card-main">
       <h2 class="research-title">
         <a href="{{ '/research/good-enough-vision-at-birth/' | relative_url }}">
-          Good-Enough Vision at Birth: A Computational Demonstration of What Newborns Can See with Rod-Dominated, Low-Acuity Input
+          Good-Enough Vision at Birth: Newborn Face Information Under Low-Acuity Input
         </a>
       </h2>
       <p class="research-summary">
