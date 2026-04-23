@@ -8,6 +8,30 @@ permalink: /research/
   <article class="research-card">
     <div class="research-card-main">
       <h2 class="research-title">
+        <a href="{{ '/research/good-enough-vision-at-birth/' | relative_url }}">
+          Good-Enough Vision at Birth: A Computational Demonstration of What Newborns Can See with Rod-Dominated, Low-Acuity Input
+        </a>
+      </h2>
+      <p class="research-summary">
+        A computational modeling project testing whether newborn-like degraded visual input can still support face-related discriminations and interpretability signals under low-acuity conditions.
+      </p>
+    </div>
+    <a
+      class="research-thumb research-thumb-link"
+      href="{{ '/research/good-enough-vision-at-birth/' | relative_url }}"
+      aria-label="Open Good-Enough Vision at Birth project"
+    >
+      <img
+        class="research-thumb-image"
+        src="{{ '/media/research/good-enough-vision-at-birth-preview.png' | relative_url }}"
+        alt="Poster preview for Good-Enough Vision at Birth project"
+      >
+    </a>
+  </article>
+
+  <article class="research-card">
+    <div class="research-card-main">
+      <h2 class="research-title">
         <a href="{{ '/research/eye-tracking-study-on-infant-event-representation/' | relative_url }}">
           Eye-Tracking Study on Infant Event Representation
         </a>
