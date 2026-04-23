@@ -30,7 +30,7 @@ How Infant Looking Patterns to Trivalent Events Change from Object to Person Int
 
 ## Method
 
-<figure class="project-figure project-figure-single">
+<figure class="project-figure project-figure-single project-figure-experiment">
   <img src="{{ '/media/research/eye-tracking-study-on-infant-event-representation/figure-experiment-stimuli.png' | relative_url }}" alt="Experiment stimuli examples for GIVE and SHOW conditions">
   <figcaption>Experiment stimuli examples used across GIVE and SHOW conditions.</figcaption>
 </figure>
