@@ -113,11 +113,15 @@ permalink: /research/
       </p>
     </div>
     <a
-      class="research-thumb research-thumb-link research-thumb-placeholder"
+      class="research-thumb research-thumb-link"
       href="{{ '/research/development-of-numerical-cognition-in-young-children/' | relative_url }}"
       aria-label="Open Development of Numerical Cognition in Young Children"
     >
-      <span>Add numerical cognition thumbnail</span>
+      <img
+        class="research-thumb-image"
+        src="{{ '/media/research/developmental-study.png' | relative_url }}"
+        alt="Developmental numerical cognition study thumbnail"
+      >
     </a>
   </article>
 
