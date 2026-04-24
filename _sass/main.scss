@@ -565,6 +565,44 @@ a {
   max-width: 560px;
 }
 
+.project-content-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: 0.9rem;
+  margin: 1rem 0 1.25rem;
+  align-items: start;
+
+  @media screen and (max-width: $on-laptop) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project-content-split-main > ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.project-content-split-main li {
+  margin-bottom: 0.45rem;
+  line-height: 1.6;
+}
+
+.project-content-split-main li:last-child {
+  margin-bottom: 0;
+}
+
+.project-content-split-main ul ul {
+  margin-top: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.project-content-split-figure {
+  margin: 0;
+  align-self: start;
+  height: auto;
+  grid-template-rows: auto;
+}
+
 .film-roll {
   margin-bottom: 2.5rem;
 }

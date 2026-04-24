@@ -25,17 +25,32 @@ Electrophysiological and Behavioral Indices of Numerical Perception and Cognitio
 - Do N1 and P3b components show systematic amplitude/latency differences across these change conditions?
 - Do ERP effects support a categorical distinction between small- and large-number processing?
 
-## Procedure and EEG Processing
+## Procedure and EEG Processing Pipeline
 
-- Participants: `24` right-handed adults (ages `23–43`, mean `27.7`) completed a numerical-change detection task.
-- EEG acquisition: `128`-channel EGI Geodesic Sensor Net with high-impedance amplifier; recordings sampled at `250 Hz`, with electrode impedance kept below `50 kΩ`.
-- ERP windows:
-  - N1: `125–200 ms`
-  - P3b: `435–535 ms`
-- Processing workflow:
-  - `0.1–100 Hz` recording band with `40 Hz` low-pass digital filtering for analysis
-  - `800 ms` epochs with `100 ms` pre-stimulus baseline
-  - Artifact rejection, re-referencing, and condition-wise averaging within participants
+<div class="project-content-split">
+  <div class="project-content-split-main">
+    <ul>
+      <li><strong>Participants:</strong> <code>24</code> right-handed adults (ages <code>23–43</code>, mean <code>27.7</code>) completed a numerical-change detection task.</li>
+      <li><strong>EEG acquisition:</strong> <code>128</code>-channel EGI Geodesic Sensor Net with high-impedance amplifier; recordings sampled at <code>250 Hz</code>, with electrode impedance kept below <code>50 kΩ</code>.</li>
+      <li><strong>ERP windows:</strong>
+        <ul>
+          <li>N1: <code>125–200 ms</code></li>
+          <li>P3b: <code>435–535 ms</code></li>
+        </ul>
+      </li>
+      <li><strong>Processing workflow:</strong>
+        <ul>
+          <li><code>0.1–100 Hz</code> recording band with <code>40 Hz</code> low-pass digital filtering for analysis</li>
+          <li><code>800 ms</code> epochs with <code>100 ms</code> pre-stimulus baseline</li>
+          <li>Artifact rejection, re-referencing, and condition-wise averaging within participants</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <figure class="project-figure project-content-split-figure">
+    <img src="{{ '/media/research/numbers-eeg-study/figure-experiment-stimuli.png' | relative_url }}" alt="EEG numerical change experiment stimuli and design diagram">
+  </figure>
+</div>
 
 ## Experimental Conditions and Statistical Plan
 
@@ -56,6 +71,26 @@ Electrophysiological and Behavioral Indices of Numerical Perception and Cognitio
 - Brain-behavior coupling:
   - P3b latency correlated with reaction time (`r=0.425`, `p<0.01`).
   - N1 and P3b amplitudes showed positive correlation (`r=0.263`, `p<0.05`).
+
+## Results Figures
+
+<div class="project-figure-grid">
+  <figure class="project-figure">
+    <img src="{{ '/media/research/numbers-eeg-study/figure-results-cardnality-erp.png' | relative_url }}" alt="ERP results for cardinal numerical values">
+  </figure>
+  <figure class="project-figure">
+    <img src="{{ '/media/research/numbers-eeg-study/figure-results-changes-erp.png' | relative_url }}" alt="ERP results for numerical changes">
+  </figure>
+</div>
+
+<div class="project-figure-grid">
+  <figure class="project-figure">
+    <img src="{{ '/media/research/numbers-eeg-study/figure-results-behavioral.png' | relative_url }}" alt="Behavioral results for EEG numbers study">
+  </figure>
+  <figure class="project-figure">
+    <img src="{{ '/media/research/numbers-eeg-study/figure-results-changes.png' | relative_url }}" alt="Numerical change condition results">
+  </figure>
+</div>
 
 ## Discussion
 
