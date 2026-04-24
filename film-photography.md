@@ -64,7 +64,6 @@ permalink: /film-photography/
   <button class="film-lightbox-close" id="film-lightbox-close" type="button" aria-label="Close enlarged image">&times;</button>
   <figure class="film-lightbox-figure">
     <img id="film-lightbox-image" src="" alt="">
-    <figcaption id="film-lightbox-caption"></figcaption>
   </figure>
 </div>
 
@@ -72,11 +71,10 @@ permalink: /film-photography/
 (() => {
   const lightbox = document.getElementById("film-lightbox");
   const lightboxImage = document.getElementById("film-lightbox-image");
-  const lightboxCaption = document.getElementById("film-lightbox-caption");
   const closeButton = document.getElementById("film-lightbox-close");
   const buttons = document.querySelectorAll(".film-thumb-button");
 
-  if (!lightbox || !lightboxImage || !lightboxCaption || !closeButton || buttons.length === 0) {
+  if (!lightbox || !lightboxImage || !closeButton || buttons.length === 0) {
     return;
   }
 
@@ -84,14 +82,12 @@ permalink: /film-photography/
     lightbox.hidden = true;
     lightboxImage.src = "";
     lightboxImage.alt = "";
-    lightboxCaption.textContent = "";
     document.body.classList.remove("film-lightbox-open");
   };
 
   const openLightbox = (thumbnail) => {
     lightboxImage.src = thumbnail.dataset.full || thumbnail.currentSrc || thumbnail.src;
     lightboxImage.alt = thumbnail.alt;
-    lightboxCaption.textContent = thumbnail.alt;
     lightbox.hidden = false;
     document.body.classList.add("film-lightbox-open");
     closeButton.focus();
