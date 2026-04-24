@@ -10,7 +10,7 @@ permalink: /research/good-enough-vision-at-birth/
 
 Good-Enough Vision at Birth asks what face-relevant visual information remains under newborn-like visual degradation (rod-dominated, low-acuity input). This project uses computational models to test whether reduced visual input can still support meaningful face discrimination performance.
 
-<div class="project-authors">Yuexin Li<sup>1</sup></div>
+<div class="project-authors">Author: Yuexin Li<sup>1</sup></div>
 <div class="project-affiliations"><sup>1</sup> New York University</div>
 
 ## Background
