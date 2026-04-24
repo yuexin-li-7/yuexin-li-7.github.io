@@ -80,8 +80,8 @@ How Infant Looking Patterns to Trivalent Events Change from Object to Person Int
 
 Poster presented at 2026 Cognitive Development Society Meeting.
 
-- [View or download poster PDF]({{ '/docs/research/eye-tracking-study-on-infant-event-representation-poster.pdf' | relative_url }})
+- [View or download poster PDF]({{ '/docs/research/infant-event-representation-poster.pdf' | relative_url }})
 
 <div class="resume-container">
-  <iframe class="resume-embed" src="{{ '/docs/research/eye-tracking-study-on-infant-event-representation-poster.pdf' | relative_url }}" title="Eye-Tracking Study on Infant Event Representation poster"></iframe>
+  <iframe class="resume-embed" src="{{ '/docs/research/infant-event-representation-poster.pdf' | relative_url }}" title="Eye-Tracking Study on Infant Event Representation poster"></iframe>
 </div>
