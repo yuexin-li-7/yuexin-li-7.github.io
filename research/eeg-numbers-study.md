@@ -10,8 +10,8 @@ permalink: /research/eeg-numbers-study/
 
 Electrophysiological and Behavioral Indices of Numerical Perception and Cognition examines how set size and change direction shape behavioral performance and EEG responses during numerical-change detection.
 
-<div class="project-authors">Authors: Jean Ee Tang<sup>1</sup>, Yuexin Li<sup>1</sup>, Paul Smith<sup>1</sup>, Janiece Spitzmueller<sup>1</sup>, Mischa (Yuri) Gushiken<sup>1</sup>, Christofer Tobing<sup>1</sup>, Peter Gordon<sup>1</sup></div>
-<div class="project-affiliations"><sup>1</sup> Teachers College, Columbia University</div>
+<div class="project-authors">Authors: Jean Ee Tang<sup>1</sup>, Yuexin Li<sup>2</sup>, Paul Smith<sup>1</sup>, Janiece Spitzmueller<sup>1</sup>, Mischa (Yuri) Gushiken<sup>1</sup>, Christofer Tobing<sup>1</sup>, Peter Gordon<sup>1</sup></div>
+<div class="project-affiliations"><sup>1</sup> Teachers College, Columbia University<br><sup>2</sup> Columbia University</div>
 
 ## Background
 
