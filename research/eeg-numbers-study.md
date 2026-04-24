@@ -101,6 +101,8 @@ Electrophysiological and Behavioral Indices of Numerical Perception and Cognitio
 
 ## Poster
 
+Poster presented at 2025 Cognitive Neuroscience Society Meeting & 2024 APS Global Summit.
+
 - [View or download poster PDF]({{ '/docs/research/eeg-numbers-study-poster.pdf' | relative_url }})
 
 <div class="resume-container">
