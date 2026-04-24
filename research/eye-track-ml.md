@@ -10,8 +10,8 @@ permalink: /research/eye-track-ml/
 
 Eye-Track-ML is a machine-learning pipeline for automated frame-by-frame coding of eye-tracking videos. The project integrates event classification, object detection, segmentation, and rule-based gaze mapping to reduce manual annotation burden while maintaining near-human accuracy.
 
-<div class="project-authors">Authors: Mischa Gushiken<sup>1</sup>, Yuexin Li<sup>1</sup>, Jean Ee Tang<sup>1</sup>, Peter Gordon<sup>1</sup></div>
-<div class="project-affiliations"><sup>1</sup> Language and Cognitive Neuroscience Lab, Teachers College, Columbia University</div>
+<div class="project-authors">Authors: Mischa Gushiken<sup>1</sup>, Yuexin Li<sup>2</sup>, Jean Ee Tang<sup>1</sup>, Peter Gordon<sup>1</sup></div>
+<div class="project-affiliations"><sup>1</sup> Teachers College, Columbia University<br><sup>2</sup> Columbia University</div>
 
 ## Background
 
