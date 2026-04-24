@@ -68,6 +68,8 @@ Eye-Track-ML is a machine-learning pipeline for automated frame-by-frame coding 
 
 ## Poster
 
+Poster presented at 2025 Columbia AI Summit & 2025 Columbia Data Science Day.
+
 - [View or download poster PDF]({{ '/docs/research/eye-track-ml-poster.pdf' | relative_url }})
 
 <div class="resume-container">
