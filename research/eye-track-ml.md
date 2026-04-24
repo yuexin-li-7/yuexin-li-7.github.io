@@ -46,7 +46,7 @@ Eye-Track-ML is a machine-learning pipeline for automated frame-by-frame coding 
 - Symbolic verification reached `99.18%` and then `100%` on event-classification checks.
 - Combined SAM+YOLO (with `10px` dilation) outperformed YOLO-only by `5.36%`.
 
-## Take-Away
+## Discussion
 
 - A hybrid ML pipeline can automate large portions of frame-level eye-tracking annotation while preserving high accuracy.
 - Segmentation-aware processing (YOLO+SAM2.1) materially improves fixation assignment over bounding-box-only baselines.
