@@ -31,11 +31,6 @@ Eye-Track-ML is a machine-learning pipeline for automated frame-by-frame coding 
 - Gaze mapping: apply deterministic rules that map gaze indicators to semantic entities when gaze points occlude scene objects.
 - Verification and export: consolidate outputs into participant CSV files and validate with human-in-the-loop review.
 
-<figure class="project-figure project-figure-single">
-  <img src="{{ '/media/research/eye-track-ml/poster-preview.png' | relative_url }}" alt="Eye-Track-ML poster overview with pipeline architecture and validation results">
-  <figcaption>Poster overview showing the end-to-end pipeline architecture and validation experiments.</figcaption>
-</figure>
-
 ## Experimental Validation
 
 - Experiment 1: YOLO-only object detection against human-verified labels.
