@@ -23,13 +23,14 @@ Eye-Track-ML is a machine-learning pipeline for automated frame-by-frame coding 
 
 - How can machine learning models be combined in a pipeline to automate fixation-point annotation in eye-tracking videos with minimal human intervention?
 
-## Method
+## Pipeline
 
-- Preprocessing: split participant videos into frame-level inputs for model inference.
-- Event classification: run YOLOv11 image classification to identify event type per frame.
-- Object processing: compare YOLO-only bounding boxes versus YOLO+SAM2.1 segmentation masks.
-- Gaze mapping: apply deterministic rules that map gaze indicators to semantic entities when gaze points occlude scene objects.
-- Verification and export: consolidate outputs into participant CSV files and validate with human-in-the-loop review.
+- First: Break participant videos into individual frames.
+- Second: Run YOLOv11 image classification to identify event type in each frame (for example, `hug-with-toy` vs. `hug-w/o-toy`).
+- Third: For object detection, compare YOLO-only rectangular bounding boxes with YOLO+SAM2.1 contour-based segmentation masks.
+- Fourth: Apply gaze-mapping rules to determine what participants are looking at when gaze indicators occlude objects, mapping abstract gaze coordinates to scene entities.
+- Fifth: Consolidate outputs into participant CSV files.
+- Human verification: Use a custom video overlay to validate and correct pipeline outputs frame by frame as needed.
 
 ## Experimental Validation
 
