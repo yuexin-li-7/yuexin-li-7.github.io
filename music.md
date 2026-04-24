@@ -25,10 +25,15 @@ permalink: /music/
 </section>
 
 <section class="music-highlights" aria-label="Performance highlights">
-  <h2 class="music-section-title">Performance Highlights</h2>
-  <div class="music-grid">
-    <figure class="music-frame music-frame-landscape"><img src="{{ '/media/music/highlights/highlight-01.JPG' | relative_url }}?v=20260405" alt="Performance highlight 1"></figure>
-    <figure class="music-frame music-frame-landscape"><img src="{{ '/media/music/highlights/highlight-02.jpg' | relative_url }}?v=20260405" alt="Performance highlight 2"></figure>
-    <figure class="music-frame music-frame-landscape"><img src="{{ '/media/music/highlights/highlight-03.JPG' | relative_url }}?v=20260405" alt="Performance highlight 3"></figure>
+  <h2>Result Figures</h2>
+  <div class="project-figure-grid">
+    <figure class="project-figure">
+      <img src="{{ '/media/music/highlights/highlight-01.JPG' | relative_url }}?v=20260423" alt="Columbia Chinese Orchestra performance highlight 1" loading="lazy" decoding="async">
+      <figcaption>Performance highlight from Columbia Chinese Orchestra.</figcaption>
+    </figure>
+    <figure class="project-figure">
+      <img src="{{ '/media/music/highlights/highlight-02.jpg' | relative_url }}?v=20260423" alt="Columbia Chinese Orchestra performance highlight 2" loading="lazy" decoding="async">
+      <figcaption>Concert moment featuring the ensemble performance setting.</figcaption>
+    </figure>
   </div>
 </section>
