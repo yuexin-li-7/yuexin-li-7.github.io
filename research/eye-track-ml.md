@@ -32,6 +32,10 @@ Eye-Track-ML is a machine-learning pipeline for automated frame-by-frame coding 
 - Fifth: Consolidate outputs into participant CSV files.
 - Human verification: Use a custom video overlay to validate and correct pipeline outputs frame by frame as needed.
 
+<figure class="project-figure project-figure-single project-figure-half">
+  <img src="{{ '/media/research/eye-track-ml/figure-processing-example.png' | relative_url }}" alt="Processing examples from the Eye-Track-ML pipeline">
+</figure>
+
 ## Experimental Validation
 
 - Experiment 1: YOLO-only object detection against human-verified labels.
@@ -41,11 +45,19 @@ Eye-Track-ML is a machine-learning pipeline for automated frame-by-frame coding 
 
 ## Results Summary
 
+<figure class="project-figure project-figure-single project-figure-half">
+  <img src="{{ '/media/research/eye-track-ml/figure-results-demo.png' | relative_url }}" alt="Results demo for Eye-Track-ML experiments">
+</figure>
+
 - YOLO-only baseline reached `88.88%` overall accuracy.
 - YOLO+SAM2.1 improved performance to `93.57%` with no dilation.
 - `10px` dilation performed best at `94.24%`; performance declined beyond that range.
 - Symbolic verification reached `99.18%` and then `100%` on event-classification checks.
 - Combined SAM+YOLO (with `10px` dilation) outperformed YOLO-only by `5.36%`.
+
+<figure class="project-figure project-figure-single project-figure-half">
+  <img src="{{ '/media/research/eye-track-ml/figure-pipeline.png' | relative_url }}" alt="Pipeline architecture diagram for Eye-Track-ML">
+</figure>
 
 ## Discussion
 
