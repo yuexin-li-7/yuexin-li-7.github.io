@@ -25,6 +25,10 @@ Eye-Track-ML is a machine-learning pipeline for automated frame-by-frame coding 
 
 ## Pipeline
 
+<figure class="project-figure project-figure-single project-figure-half">
+  <img src="{{ '/media/research/eye-track-ml/figure-pipeline.png' | relative_url }}" alt="Pipeline architecture diagram for Eye-Track-ML">
+</figure>
+
 - First: Break participant videos into individual frames.
 - Second: Run YOLOv11 image classification to identify event type in each frame (for example, `hug-with-toy` vs. `hug-w/o-toy`).
 - Third: For object detection, compare YOLO-only rectangular bounding boxes with YOLO+SAM2.1 contour-based segmentation masks.
@@ -54,10 +58,6 @@ Eye-Track-ML is a machine-learning pipeline for automated frame-by-frame coding 
 - `10px` dilation performed best at `94.24%`; performance declined beyond that range.
 - Symbolic verification reached `99.18%` and then `100%` on event-classification checks.
 - Combined SAM+YOLO (with `10px` dilation) outperformed YOLO-only by `5.36%`.
-
-<figure class="project-figure project-figure-single project-figure-half">
-  <img src="{{ '/media/research/eye-track-ml/figure-pipeline.png' | relative_url }}" alt="Pipeline architecture diagram for Eye-Track-ML">
-</figure>
 
 ## Discussion
 
