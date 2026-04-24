@@ -29,11 +29,9 @@ permalink: /music/
   <div class="project-figure-grid">
     <figure class="project-figure">
       <img src="{{ '/media/music/highlights/highlight-01.JPG' | relative_url }}?v=20260423" alt="Columbia Chinese Orchestra performance highlight 1" loading="lazy" decoding="async">
-      <figcaption>Performance highlight from Columbia Chinese Orchestra.</figcaption>
     </figure>
     <figure class="project-figure">
       <img src="{{ '/media/music/highlights/highlight-02.jpg' | relative_url }}?v=20260423" alt="Columbia Chinese Orchestra performance highlight 2" loading="lazy" decoding="async">
-      <figcaption>Concert moment featuring the ensemble performance setting.</figcaption>
     </figure>
   </div>
 </section>
