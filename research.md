@@ -56,6 +56,30 @@ permalink: /research/
   <article class="research-card">
     <div class="research-card-main">
       <h2 class="research-title">
+        <a href="{{ '/research/eye-track-ml/' | relative_url }}">
+          Eye-Track-ML: A Machine Learning Pipeline for Automated Frame-by-Frame Coding of Eye-Tracking Videos
+        </a>
+      </h2>
+      <p class="research-summary">
+        A machine-learning workflow that combines YOLOv11, SAM2.1, and symbolic verification to automate eye-tracking video annotation and reduce manual coding workload for large-scale infant datasets.
+      </p>
+    </div>
+    <a
+      class="research-thumb research-thumb-link"
+      href="{{ '/research/eye-track-ml/' | relative_url }}"
+      aria-label="Open Eye-Track-ML project"
+    >
+      <img
+        class="research-thumb-image"
+        src="{{ '/media/research/Eye_Track_ML.png' | relative_url }}"
+        alt="Eye-Track-ML project thumbnail"
+      >
+    </a>
+  </article>
+
+  <article class="research-card">
+    <div class="research-card-main">
+      <h2 class="research-title">
         <a href="{{ '/research/eeg-numbers-study/' | relative_url }}">
           Electroencephalogram (EEG) Numbers Study
         </a>
