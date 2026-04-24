@@ -10,7 +10,8 @@ permalink: /research/eye-tracking-study-on-infant-event-representation/
 
 How Infant Looking Patterns to Trivalent Events Change from Object to Person Interaction asks whether pre-linguistic infants shift gaze-transition patterns with age in ways that reflect increasing event parsing and intention understanding.
 
-- Authors: Mischa Gushiken, Yuexin Li, Peter Gordon
+<div class="project-authors">Mischa Gushiken<sup>1</sup>, Yuexin Li<sup>1</sup>, Peter Gordon<sup>1</sup></div>
+<div class="project-affiliations"><sup>1</sup> New York University</div>
 
 ## Background
 

@@ -475,6 +475,27 @@ a {
   line-height: 1.5;
 }
 
+.project-authors {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.project-affiliations {
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+  color: $grey-color-dark;
+  font-size: 0.93rem;
+  line-height: 1.5;
+}
+
+.project-authors sup,
+.project-affiliations sup {
+  font-size: 0.72em;
+  vertical-align: super;
+}
+
 .project-figure {
   margin: 1rem 0 1.25rem;
   border: 1px solid $beige-medium;
