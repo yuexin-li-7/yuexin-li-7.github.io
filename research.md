@@ -89,11 +89,15 @@ permalink: /research/
       </p>
     </div>
     <a
-      class="research-thumb research-thumb-link research-thumb-placeholder"
+      class="research-thumb research-thumb-link"
       href="{{ '/research/eeg-numbers-study/' | relative_url }}"
       aria-label="Open Electroencephalogram (EEG) Numbers Study"
     >
-      <span>Add EEG project thumbnail</span>
+      <img
+        class="research-thumb-image"
+        src="{{ '/media/research/Number-EEG.png' | relative_url }}"
+        alt="EEG numbers study thumbnail"
+      >
     </a>
   </article>
 
