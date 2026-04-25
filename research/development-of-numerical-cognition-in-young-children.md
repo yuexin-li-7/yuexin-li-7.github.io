@@ -46,12 +46,12 @@ Numerical Cognition in Mandarin-Speaking and English-Speaking 2-to-4-year-old ch
 - In one-to-one correspondence tasks, the overall language-group difference was not significant (`t = -0.5`, `p = 0.62`), but English-speaking children showed a significant orthogonal-task difficulty pattern (`t = -2.23`, `p = 0.015`) not observed in the Mandarin group (`t = -1.02`, `p = 0.15`).
 - Younger children and subset-knowers showed weaker ascending/descending task performance than older or higher-knower peers.
 
-<figure class="project-figure project-figure-single project-figure-half">
+<figure class="project-figure project-figure-single">
   <img src="{{ '/media/research/developmental-study/figure-results-asc:dsc.png' | relative_url }}" alt="Ascending and descending task results">
   <figcaption>Ascending versus descending enumeration performance by age and knower-level groups across Mandarin and English samples.</figcaption>
 </figure>
 
-<figure class="project-figure project-figure-single project-figure-half">
+<figure class="project-figure project-figure-single">
   <img src="{{ '/media/research/developmental-study/figure-results-1to1.png' | relative_url }}" alt="One-to-one correspondence task results">
   <figcaption>Parallel and orthogonal one-to-one correspondence task performance across language groups.</figcaption>
 </figure>
