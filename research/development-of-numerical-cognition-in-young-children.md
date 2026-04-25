@@ -39,18 +39,24 @@ Numerical Cognition in Mandarin-Speaking and English-Speaking 2-to-4-year-old ch
   - Rote counting task
   - Caregiver interview/context measures
 
-## Analytic Plan
-
-- Group and condition comparisons were tested across language, age-group, knower-level, and task context.
-- Analyses emphasized language-group contrasts, age effects, and knower-level effects across task types.
-- Statistical summaries included between-group comparisons and within-task trend analyses.
-
 ## Results Summary
 
 - In both Mandarin and English groups, performance generally decreased as target set size increased across key tasks.
 - Nuts-in-a-can performance was significantly stronger in the Mandarin group (`t = -3.03`, `p = 0.003`).
 - In one-to-one correspondence tasks, the overall language-group difference was not significant (`t = -0.5`, `p = 0.62`), but English-speaking children showed a significant orthogonal-task difficulty pattern (`t = -2.23`, `p = 0.015`) not observed in the Mandarin group (`t = -1.02`, `p = 0.15`).
 - Younger children and subset-knowers showed weaker ascending/descending task performance than older or higher-knower peers.
+
+<figure class="project-figure project-figure-single project-figure-half">
+  <img src="{{ '/media/research/developmental-study/figure-results-asc:dsc.png' | relative_url }}" alt="Ascending and descending task results">
+</figure>
+
+<figure class="project-figure project-figure-single project-figure-half">
+  <img src="{{ '/media/research/developmental-study/figure-results-1to1.png' | relative_url }}" alt="One-to-one correspondence task results">
+</figure>
+
+<figure class="project-figure project-figure-single project-figure-half">
+  <img src="{{ '/media/research/developmental-study/figure-results-ninac.png' | relative_url }}" alt="Nuts-in-a-can task results">
+</figure>
 
 ## Discussion
 
