@@ -24,6 +24,19 @@ permalink: /music/
   </ul>
 </section>
 
+<section class="music-video" aria-label="Selected performance">
+  <h2 class="music-section-title">Selected Performance</h2>
+  <div class="music-video-embed">
+    <iframe
+      src="https://www.youtube.com/embed/zgetUlqvGjQ"
+      title="Selected CCO performance"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </div>
+</section>
+
 <section class="music-highlights" aria-label="Performance highlights">
   <h2>Highlights</h2>
   <div class="project-figure-grid music-highlight-grid">

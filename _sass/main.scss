@@ -756,6 +756,31 @@ body.film-lightbox-open {
   padding: 1rem 1.2rem;
 }
 
+.music-video {
+  margin-bottom: 1.5rem;
+  border: 1px solid $beige-medium;
+  border-radius: 8px;
+  background-color: white;
+  padding: 1rem 1.2rem;
+}
+
+.music-video-embed {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #111;
+}
+
+.music-video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .music-link-list {
   list-style: none;
   margin: 0;
