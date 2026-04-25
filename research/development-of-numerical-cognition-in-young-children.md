@@ -10,7 +10,7 @@ permalink: /research/development-of-numerical-cognition-in-young-children/
 
 Numerical Cognition in Mandarin-Speaking and English-Speaking 2-to-4-year-old children examines how language background, age, and number-knower level relate to performance across early numerical tasks in China and the U.S.
 
-<div class="project-authors">Authors: Yuexin Li<sup>2</sup>, Langxu Jin<sup>1</sup>, Pangzhongyuan Pei<sup>1</sup>, Nina Lin<sup>1</sup>, Yintao Kang<sup>1</sup>, Luxin Zhang<sup>1</sup>, Huanyi Ye<sup>1</sup>, Wenjun Wu<sup>1</sup>, Jean Ee Tang<sup>1</sup>, Peter Gordon<sup>1</sup></div>
+<div class="project-authors">Authors: Yuexin Li<sup>2</sup>, Langxu Jin<sup>2</sup>, Pangzhongyuan Pei<sup>1</sup>, Nina Lin<sup>1</sup>, Yintao Kang<sup>1</sup>, Luxin Zhang<sup>1</sup>, Huanyi Ye<sup>1</sup>, Wenjun Wu<sup>1</sup>, Jean Ee Tang<sup>1</sup>, Peter Gordon<sup>1</sup></div>
 <div class="project-affiliations"><sup>1</sup> Teachers College, Columbia University<br><sup>2</sup> Columbia University</div>
 
 ## Background
