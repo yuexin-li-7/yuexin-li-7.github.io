@@ -38,10 +38,11 @@ Electrophysiological and Behavioral Indices of Numerical Perception and Cognitio
           <li>P3b: <code>435–535 ms</code></li>
         </ul>
       </li>
-      <li><strong>Processing workflow:</strong>
+      <li><strong>Processing workflow (HAPPE-based):</strong>
         <ul>
-          <li><code>0.1–100 Hz</code> recording band with <code>40 Hz</code> low-pass digital filtering for analysis</li>
-          <li><code>800 ms</code> epochs with <code>100 ms</code> pre-stimulus baseline</li>
+          <li>EEG preprocessing was conducted using the Harvard Automated Processing Pipeline for EEG (<code>HAPPE</code>)</li>
+          <li>Filtering for analysis used a <code>0.3 Hz</code> high-pass and <code>30 Hz</code> low-pass configuration</li>
+          <li>Data were segmented from <code>-100 ms</code> to <code>600 ms</code> relative to stimulus onset</li>
           <li>Artifact rejection, re-referencing, and condition-wise averaging within participants</li>
         </ul>
       </li>
