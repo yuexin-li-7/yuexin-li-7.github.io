@@ -25,7 +25,7 @@ permalink: /music/
 </section>
 
 <section class="music-highlights" aria-label="Performance highlights">
-  <h2>Result Figures</h2>
+  <h2>Highlights</h2>
   <div class="project-figure-grid">
     <figure class="project-figure">
       <img src="{{ '/media/music/highlights/highlight-01.JPG' | relative_url }}?v=20260423" alt="Columbia Chinese Orchestra performance highlight 1" loading="lazy" decoding="async">
