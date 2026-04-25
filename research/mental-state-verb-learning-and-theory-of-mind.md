@@ -60,6 +60,17 @@ Syntactic Bootstrapping of Mental State Verbs in Mandarin-Speaking Children exam
 - Age predicted false-belief performance (`r(25)=0.43`, `p=0.03`).
 - Complement comprehension significantly predicted syntax and semantics test performance in regression models.
 
+## Results Figures
+
+<div class="project-figure-grid">
+  <figure class="project-figure">
+    <img src="{{ '/media/research/mental-state-verb/figure-syntax.png' | relative_url }}" alt="Syntax test results figure">
+  </figure>
+  <figure class="project-figure">
+    <img src="{{ '/media/research/mental-state-verb/figure-semantics.png' | relative_url }}" alt="Semantics test results figure">
+  </figure>
+</div>
+
 ## Discussion
 
 - Children used syntactic structure to learn a novel mental-state verb in Mandarin, consistent with syntactic bootstrapping accounts.
