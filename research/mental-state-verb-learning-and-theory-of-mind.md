@@ -61,9 +61,11 @@ Syntactic Bootstrapping of Mental State Verbs in Mandarin-Speaking Children exam
 <div class="project-figure-grid">
   <figure class="project-figure">
     <img src="{{ '/media/research/mental-state-verb/figure-syntax.png' | relative_url }}" alt="Syntax test results figure">
+    <figcaption>Syntax-test responses by condition, showing stronger belief-consistent choices in belief and mixture groups.</figcaption>
   </figure>
   <figure class="project-figure">
     <img src="{{ '/media/research/mental-state-verb/figure-semantics.png' | relative_url }}" alt="Semantics test results figure">
+    <figcaption>Semantics-test responses by condition, highlighting the separation between belief/mixture and desire groups.</figcaption>
   </figure>
 </div>
 
@@ -75,6 +77,8 @@ Syntactic Bootstrapping of Mental State Verbs in Mandarin-Speaking Children exam
 - Overall, results support syntax-driven verb-meaning learning while highlighting limits in linking this process to broader theory-of-mind outcomes.
 
 ## Poster
+
+Poster presented at 2024 APS Annual Convention.
 
 - [View or download poster PDF]({{ '/docs/research/mental-state-verb-learning-poster.pdf' | relative_url }})
 
