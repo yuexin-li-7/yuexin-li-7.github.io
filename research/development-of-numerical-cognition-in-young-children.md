@@ -48,14 +48,17 @@ Numerical Cognition in Mandarin-Speaking and English-Speaking 2-to-4-year-old ch
 
 <figure class="project-figure project-figure-single project-figure-half">
   <img src="{{ '/media/research/developmental-study/figure-results-asc:dsc.png' | relative_url }}" alt="Ascending and descending task results">
+  <figcaption>Ascending versus descending enumeration performance by age and knower-level groups across Mandarin and English samples.</figcaption>
 </figure>
 
 <figure class="project-figure project-figure-single project-figure-half">
   <img src="{{ '/media/research/developmental-study/figure-results-1to1.png' | relative_url }}" alt="One-to-one correspondence task results">
+  <figcaption>Parallel and orthogonal one-to-one correspondence task performance across language groups.</figcaption>
 </figure>
 
 <figure class="project-figure project-figure-single project-figure-half">
   <img src="{{ '/media/research/developmental-study/figure-results-ninac.png' | relative_url }}" alt="Nuts-in-a-can task results">
+  <figcaption>Nuts-in-a-can task comparison, including the stronger performance trend in the Mandarin group.</figcaption>
 </figure>
 
 ## Discussion
