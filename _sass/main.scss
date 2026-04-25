@@ -921,6 +921,45 @@ body.film-lightbox-open {
   color: $grey-color-dark;
 }
 
+.conference-intro {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: $grey-color-dark;
+}
+
+.conference-collection {
+  display: grid;
+  gap: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.conference-card {
+  border: 1px solid $beige-medium;
+  border-radius: 8px;
+  background-color: white;
+  padding: 0.85rem 1rem;
+}
+
+.conference-card-title {
+  margin: 0 0 0.55rem;
+  font-size: 1.1rem;
+  color: $text-color;
+}
+
+.conference-card-path {
+  margin: 0 0 0.35rem;
+}
+
+.conference-card-note {
+  margin: 0;
+  color: $grey-color-dark;
+}
+
+.conference-help {
+  margin: 0;
+  color: $grey-color-dark;
+}
+
 .cv-help {
   margin: 0 0 1rem;
   color: $grey-color-dark;
