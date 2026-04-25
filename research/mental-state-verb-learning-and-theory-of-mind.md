@@ -43,10 +43,6 @@ Syntactic Bootstrapping of Mental State Verbs in Mandarin-Speaking Children exam
   - Mental-state vocabulary from narrative elicitation
   - False-belief understanding tasks
   - Complement comprehension task (true and false complements)
-- Statistical analyses:
-  - Group comparisons with one-way ANOVA and post-hoc contrasts
-  - Correlation tests across syntax/semantics performance and theory-of-mind measures
-  - Linear regression to evaluate complement comprehension effects while controlling for age
 
 ## Results Summary
 
