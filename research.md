@@ -47,8 +47,8 @@ permalink: /research/
     >
       <img
         class="research-thumb-image"
-        src="{{ '/media/research/infant-event-representation/figure-experiment-stimuli.png' | relative_url }}"
-        alt="Eye-tracking experiment stimuli preview"
+        src="{{ '/media/research/infant-event-representation.png' | relative_url }}"
+        alt="Infant event representation project thumbnail"
       >
     </a>
   </article>
