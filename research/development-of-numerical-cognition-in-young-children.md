@@ -70,7 +70,7 @@ Numerical Cognition in Mandarin-Speaking and English-Speaking 2-to-4-year-old ch
 
 ## Poster
 
-Poster presented at 2024 APS Global Summit & 2025 SRCD Biennial Meeting.
+Poster presetned at 2025 SRCD Biennial Meeting & 2024 APS Global Summit.
 
 - [View or download poster PDF]({{ '/docs/research/developmental-study-poster.pdf' | relative_url }})
 
