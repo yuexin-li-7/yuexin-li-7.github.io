@@ -764,13 +764,52 @@ body.film-lightbox-open {
   padding: 1rem 1.2rem;
 }
 
+.music-video-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 1rem;
+  align-items: center;
+
+  @media screen and (max-width: $on-laptop) {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+}
+
+.music-video-text {
+  display: grid;
+  gap: 0.45rem;
+  align-content: center;
+}
+
+.music-video-title-cn,
+.music-video-title-en {
+  margin: 0;
+}
+
+.music-video-title-cn {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: $text-color;
+}
+
+.music-video-title-en {
+  color: $grey-color-dark;
+}
+
 .music-video-embed {
   position: relative;
-  width: 100%;
+  width: min(100%, 620px);
   padding-top: 56.25%;
   border-radius: 8px;
   overflow: hidden;
   background-color: #111;
+  justify-self: end;
+
+  @media screen and (max-width: $on-laptop) {
+    width: 100%;
+    justify-self: stretch;
+  }
 }
 
 .music-video-embed iframe {

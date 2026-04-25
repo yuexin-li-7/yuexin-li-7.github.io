@@ -26,14 +26,20 @@ permalink: /music/
 
 <section class="music-video" aria-label="Selected performance">
   <h2 class="music-section-title">Selected Performance</h2>
-  <div class="music-video-embed">
-    <iframe
-      src="https://www.youtube.com/embed/zgetUlqvGjQ"
-      title="Selected CCO performance"
-      loading="lazy"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
+  <div class="music-video-layout">
+    <div class="music-video-text">
+      <p class="music-video-title-cn">《七彩之和·绿·风之歌》</p>
+      <p class="music-video-title-en">Seven Colors of Harmony, Green: Song of the Wind.</p>
+    </div>
+    <div class="music-video-embed">
+      <iframe
+        src="https://www.youtube.com/embed/zgetUlqvGjQ"
+        title="Selected CCO performance"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
   </div>
 </section>
 
