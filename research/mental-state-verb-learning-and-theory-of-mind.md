@@ -10,8 +10,8 @@ permalink: /research/mental-state-verb-learning-and-theory-of-mind/
 
 Syntactic Bootstrapping of Mental State Verbs in Mandarin-Speaking Children examines whether children can use syntax to infer the meaning of novel mental-state verbs, and whether that learning relates to theory-of-mind and complement-clause understanding.
 
-<div class="project-authors">Authors: Yuanyuan Chang<sup>1</sup>, Yuexin Li<sup>1</sup>, Sining Gao<sup>1</sup>, Tianyi Liu<sup>1</sup>, Haiwei Liu<sup>1</sup>, Peter Gordon<sup>1</sup></div>
-<div class="project-affiliations"><sup>1</sup> Teachers College, Columbia University</div>
+<div class="project-authors">Authors: Yuanyuan Chang<sup>1</sup>, Yuexin Li<sup>2</sup>, Sining Gao<sup>1</sup>, Tianyi Liu<sup>1</sup>, Haiwei Liu<sup>1</sup>, Peter Gordon<sup>1</sup></div>
+<div class="project-affiliations"><sup>1</sup> Teachers College, Columbia University<br><sup>2</sup> Columbia University</div>
 
 ## Background
 
