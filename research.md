@@ -137,11 +137,15 @@ permalink: /research/
       </p>
     </div>
     <a
-      class="research-thumb research-thumb-link research-thumb-placeholder"
+      class="research-thumb research-thumb-link"
       href="{{ '/research/mental-state-verb-learning-and-theory-of-mind/' | relative_url }}"
       aria-label="Open Mental State Verb Learning and Theory of Mind project"
     >
-      <span>Add theory-of-mind project thumbnail</span>
+      <img
+        class="research-thumb-image"
+        src="{{ '/media/research/bootstrapping.jpg' | relative_url }}"
+        alt="Mental state verb learning study thumbnail"
+      >
     </a>
   </article>
 </section>
