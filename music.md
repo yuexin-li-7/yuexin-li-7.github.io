@@ -24,8 +24,8 @@ permalink: /music/
   </ul>
 </section>
 
+<h2 class="music-section-title">Selected Performance</h2>
 <section class="music-video" aria-label="Selected performance">
-  <h2 class="music-section-title">Selected Performance</h2>
   <div class="music-video-layout">
     <div class="music-video-text">
       <p class="music-video-title-cn">《七彩之和·绿·风之歌》</p>
