@@ -4,32 +4,37 @@ title: Conference Presentation
 permalink: /conference-presentation/
 ---
 
-<p class="conference-intro">Photo archive for conference posters and presentations.</p>
+<p class="conference-intro">Conference presentation highlights.</p>
 
-<section class="conference-collection">
-  <article class="conference-card">
-    <h2 class="conference-card-title">2026 Cognitive Development Society Meeting</h2>
-    <p class="conference-card-path"><code>/media/conference-presentations/2026-cognitive-development-society/</code></p>
-    <p class="conference-card-note">Drop your presentation photos in this folder.</p>
-  </article>
+<p class="conference-upload-guide">Put all conference photos in <code>/media/conference-presentations/</code> using these filenames:</p>
+<ul class="conference-file-list">
+  <li><code>cds-2026.jpg</code></li>
+  <li><code>nyu-ma-psychology-2026.jpg</code></li>
+  <li><code>cns-2025.jpg</code></li>
+  <li><code>aps-global-2024.jpg</code></li>
+</ul>
 
-  <article class="conference-card">
-    <h2 class="conference-card-title">2026 NYU MA Psychology Research Conference</h2>
-    <p class="conference-card-path"><code>/media/conference-presentations/2026-nyu-ma-psychology-research-conference/</code></p>
-    <p class="conference-card-note">Drop your presentation photos in this folder.</p>
-  </article>
+{% assign conference_items = "2026 Cognitive Development Society Meeting|cds-2026.jpg,2026 NYU MA Psychology Research Conference|nyu-ma-psychology-2026.jpg,2025 Cognitive Neuroscience Society Meeting|cns-2025.jpg,2024 APS Global Summit|aps-global-2024.jpg" | split: "," %}
 
-  <article class="conference-card">
-    <h2 class="conference-card-title">2025 Cognitive Neuroscience Society Meeting</h2>
-    <p class="conference-card-path"><code>/media/conference-presentations/2025-cognitive-neuroscience-society/</code></p>
-    <p class="conference-card-note">Drop your presentation photos in this folder.</p>
-  </article>
+<section class="conference-gallery" aria-label="Conference presentation photos">
+  {% for item in conference_items %}
+    {% assign parts = item | split: "|" %}
+    {% assign conference_name = parts[0] | strip %}
+    {% assign filename = parts[1] | strip %}
+    {% assign image_path = '/media/conference-presentations/' | append: filename %}
+    {% assign image_file = site.static_files | where: "path", image_path | first %}
 
-  <article class="conference-card">
-    <h2 class="conference-card-title">2024 APS Global Summit</h2>
-    <p class="conference-card-path"><code>/media/conference-presentations/2024-aps-global-summit/</code></p>
-    <p class="conference-card-note">Drop your presentation photos in this folder.</p>
-  </article>
+    <article class="conference-card">
+      <div class="conference-card-media">
+        {% if image_file %}
+          <img src="{{ image_path | relative_url }}" alt="{{ conference_name }}" loading="lazy" decoding="async">
+        {% else %}
+          <div class="conference-placeholder">
+            Add <code>{{ filename }}</code> to <code>/media/conference-presentations/</code>
+          </div>
+        {% endif %}
+      </div>
+      <p class="conference-card-caption">{{ conference_name }}</p>
+    </article>
+  {% endfor %}
 </section>
-
-<p class="conference-help">When you upload photos, tell me and I can convert this into a gallery layout with click-to-enlarge, matching your film page style.</p>
