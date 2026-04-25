@@ -795,6 +795,16 @@ body.film-lightbox-open {
   margin-top: 0.5rem;
 }
 
+.music-highlight-grid .project-figure {
+  grid-template-rows: 1fr;
+}
+
+.music-highlight-grid .project-figure img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
 .music-note {
   margin-top: 0;
   margin-bottom: 0.85rem;
