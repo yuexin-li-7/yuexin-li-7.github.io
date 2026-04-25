@@ -8,13 +8,15 @@ permalink: /conference-presentation/
 
 <p class="conference-upload-guide">Put all conference photos in <code>/media/conference-presentations/</code> using these filenames:</p>
 <ul class="conference-file-list">
-  <li><code>cds-2026.jpg</code></li>
-  <li><code>nyu-ma-psychology-2026.jpg</code></li>
-  <li><code>cns-2025.jpg</code></li>
-  <li><code>aps-global-2024.jpg</code></li>
+  <li><code>2026-cds.jpg</code></li>
+  <li><code>2026-nyu-ma.JPG</code></li>
+  <li><code>2026-cds-2.jpg</code></li>
+  <li><code>2025-ai-summit.JPG</code></li>
+  <li><code>2025-cns.JPG</code></li>
+  <li><code>2024-aps.jpg</code></li>
 </ul>
 
-{% assign conference_items = "2026 Cognitive Development Society Meeting|cds-2026.jpg,2026 NYU MA Psychology Research Conference|nyu-ma-psychology-2026.jpg,2025 Cognitive Neuroscience Society Meeting|cns-2025.jpg,2024 APS Global Summit|aps-global-2024.jpg" | split: "," %}
+{% assign conference_items = "2026 Cognitive Development Society Meeting|2026-cds.jpg,2026 NYU MA Psychology Research Conference|2026-nyu-ma.JPG,2026 Cognitive Development Society Meeting|2026-cds-2.jpg,2025 Columbia AI Summit|2025-ai-summit.JPG,2025 Cognitive Neuroscience Society Meeting|2025-cns.JPG,2024 APS Annual Convention|2024-aps.jpg" | split: "," %}
 
 <section class="conference-gallery" aria-label="Conference presentation photos">
   {% for item in conference_items %}
