@@ -60,6 +60,20 @@ permalink: /film-photography/
   </div>
 </section>
 
+{% assign quick_snap_2_frames = "01,02,03,04,05,06,07,08,09,10,11,12" | split: "," %}
+<section class="film-roll">
+  <h2 class="film-roll-title">Fuji film 400 Quick Snap 2</h2>
+  <div class="film-grid">
+    {% for frame in quick_snap_2_frames %}
+      <figure class="film-frame">
+        <button class="film-thumb-button" type="button" aria-label="Open Fuji film 400 Quick Snap 2 frame {{ frame }}">
+          <img src="{{ '/media/film-photography/thumbnails/fujifilm-400-QuickSnap-2/frame-' | append: frame | append: '.jpg' | relative_url }}" data-full="{{ '/media/film-photography/fujifilm-400-QuickSnap-2/frame-' | append: frame | append: '.JPG' | relative_url }}" alt="Fuji film 400 Quick Snap 2 frame {{ frame }}" loading="lazy" decoding="async" fetchpriority="low">
+        </button>
+      </figure>
+    {% endfor %}
+  </div>
+</section>
+
 <div class="film-lightbox" id="film-lightbox" hidden role="dialog" aria-modal="true" aria-label="Enlarged film photograph">
   <button class="film-lightbox-close" id="film-lightbox-close" type="button" aria-label="Close enlarged image">&times;</button>
   <figure class="film-lightbox-figure">
